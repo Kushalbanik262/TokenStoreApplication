@@ -21,7 +21,7 @@ namespace TokenApp.Services.Interfaces
         /// <param name="token"></param>
         /// <param name="privileges"></param>
         /// <returns></returns>
-        public Token refactorToken(Token token,List<Priviledge> privileges);    
+        public Token refactorToken(Token token,Priviledge privileges);    
 
     }
 }
